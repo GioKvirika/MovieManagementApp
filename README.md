@@ -8,10 +8,10 @@ in particular, will find analyzing source code of this project useful.
 
 **Some Screenshots**
 
-* *This is how the main page looks like:* *
+This is how the main page looks like:
 ![Main](https://github.com/giorgim/MovieManagementApp/blob/master/img/main.png)
 
-* *This is how the list of movies page looks like:* *
+This is how the list of movies page looks like:
 ![alt tag](https://github.com/giorgim/MovieManagementApp/blob/master/img/list.png)
 
 
