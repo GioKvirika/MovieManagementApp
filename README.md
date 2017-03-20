@@ -1,14 +1,16 @@
-**Description**
+# Description
 
 CRUD web application for movie management. Allows you to add, edit, delete and search for movies.
 
-This application was mainly created for learning purposes, and is also shared with that
-goal in mind. I hope people who have recently started in Web development, and also in Node.js
-in particular, will find analyzing source code of this project useful.
+I wrote this application mainly for learning purposes for myself. Now I am sharing this project
+with same goal in mind - however for others. I hope this project will be interesting for those
+who are interested how to create such type of application using the same technology stack.
 
 The code is documented to a certain extent, which I hope will further aid those who are interested to see how the project was implemented.
 
-**Some Screenshots**
+It is assumed that the reader has at least some basic familiarity with the technologies used in this project in order to fully benefit from reading it.
+
+# Some Screenshots
 
 This is how the main page looks like:
 ![Main](https://github.com/giorgim/MovieManagementApp/blob/master/img/main.png)
@@ -17,13 +19,13 @@ This is how the list of movies page looks like:
 ![alt tag](https://github.com/giorgim/MovieManagementApp/blob/master/img/list.png)
 
 
-**Technology used**
+# Technology used
 
 On the front end we use: HTML, CSS, Bootstrap, Javascript and jQuery.
 
 For back end, we use: Node.js and Mongo DB.
 
-**How to run the project**
+# How to run the project
 
 1. Clone the project.
 2. Inside the project run
