@@ -6,6 +6,8 @@ This application was mainly created for learning purposes, and is also shared wi
 goal in mind. I hope people who have recently started in Web development, and also in Node.js
 in particular, will find analyzing source code of this project useful.
 
+The code is documented to a certain extent, which I hope will further aid those who are interested to see how the project was implemented.
+
 **Some Screenshots**
 
 This is how the main page looks like:
