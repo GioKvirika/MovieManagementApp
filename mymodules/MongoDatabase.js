@@ -75,10 +75,9 @@ MongoDatabase.prototype.addOne = function(movie, success, failure)
  * */
 MongoDatabase.prototype.updateOne = function(id, movie, success, failure)
 {
-    var that  = this;
     var o_id = new MongoDB.ObjectID(id);
 
-    if(!that.db)
+    if(!this.db)
         throw new Error("Database not connected yet");
 
     // Do an update
@@ -99,10 +98,9 @@ MongoDatabase.prototype.updateOne = function(id, movie, success, failure)
  * */
 MongoDatabase.prototype.deleteOneMovieUsingID = function(id, success, failure)
 {
-    var that  = this;
     var o_id = new MongoDB.ObjectID(id);
 
-    if(!that.db)
+    if(!this.db)
         throw new Error("Database not connected yet");
 
     // Delete a single document
@@ -123,9 +121,8 @@ MongoDatabase.prototype.deleteOneMovieUsingID = function(id, success, failure)
  * */
 MongoDatabase.prototype.findUsingFilter = function(movie, success, failure)
 {
-    var that  = this;
 
-    if(!that.db)
+    if(!this.db)
         throw new Error("Database not connected yet");
 
     // If search is based on ID, we need to generate an Object ID using supplied ID,
@@ -144,7 +141,12 @@ MongoDatabase.prototype.findUsingFilter = function(movie, success, failure)
         }
 
         // If the id was specified during search, on the front end we expect an object instead of an array.
-        movie["_id"] ? success(documents[0]) : success(documents);
+        if(movie["_id"]){
+            success(documents[0]);
+        }
+            else{
+            success(documents);
+        }
 
     });
 }
