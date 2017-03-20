@@ -34,4 +34,6 @@ For back end, we use: Node.js and Mongo DB.
 
   ` node index.js` 
 
+4. Now you should be able to access the application at: localhost:3000, from your browser.
+
 NOTE: You need to have Mongo DB service running, and a database named "Movies" created.
