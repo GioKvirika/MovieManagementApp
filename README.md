@@ -10,6 +10,8 @@ The code is documented to a certain extent, to help those trying to understand h
 
 It is assumed that the reader has at least some basic familiarity with the technologies used in this project in order to fully benefit from reading it.
 
+Also since this project was mainly for learning purposes (also for others), I have not used front end frameworks, since this way I believe readers can better see how to implement such project fully themselves (without dependencies on other frameworks). 
+
 # Some Screenshots
 
 This is how the main page looks like:
