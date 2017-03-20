@@ -23,9 +23,8 @@ This is how the list of movies page looks like:
 
 # Technology used
 
-On the front end we use: HTML, CSS, Bootstrap, Javascript and jQuery.
-
-For back end, we use: Node.js and Mongo DB.
+* On the front end we use: HTML, CSS, Bootstrap, Javascript and jQuery.
+* For back end, we use: Node.js and Mongo DB.
 
 # How to run the project
 
