@@ -34,4 +34,4 @@ For back end, we use: Node.js and Mongo DB.
 
   ` node index.js` 
 
-NOTE: You need to have Mongo DB instance running, and a database named "Movies" created.
+NOTE: You need to have Mongo DB service running, and a database named "Movies" created.
