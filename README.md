@@ -6,6 +6,15 @@ This application was mainly created for learning purposes, and is also shared wi
 goal in mind. I hope people who have recently started in Web development, and also in Node.js
 in particular, will find analyzing source code of this project useful.
 
+**Screenshots**
+
+Main page
+![Main](https://github.com/giorgim/MovieManagementApp/blob/master/img/main.png)
+
+List of movies
+![alt tag](https://github.com/giorgim/MovieManagementApp/blob/master/img/list.png)
+
+
 **Technology used**
 
 On the front end we use: HTML, CSS, Bootstrap, Javascript and jQuery.
