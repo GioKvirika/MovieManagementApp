@@ -8,13 +8,14 @@ function initEditView()
     // Register click handler for the button
     $("button").click(saveClickHandler);
 
-    // Details of movie we want to edit is embedded in URL link,
-    // parse its details and show on screen
+    // Details of movie we want to edit is embedded in URL link, parse it
     var results = parseQuery(window.location.search);
-    document.getElementById("name").value = results.name;
-    document.getElementById("director").value = results.director;
-    document.getElementById("year").value = results.year;
-    document.getElementById("_id").value = results._id;
+
+    // Show movie details now on the screen
+    $('#name').val(results.name);
+    $('#director').val(results.director);
+    $('#year').val(results.year);
+    $('#_id').val(results._id);
 
 }
 
@@ -26,12 +27,15 @@ function saveClickHandler()
     $.ajax({
         type: 'POST',
         url: '/editmovie',
+
+        // Send object created using data from input fields
         data: {
-            name: document.getElementById("name").value,
-            director: document.getElementById("director").value,
-            year: document.getElementById("year").value,
-            _id: document.getElementById("_id").value
+            name: $('#name').val(),
+            director: $('#director').val(),
+            year: $('#year').val(),
+            _id: $('#_id').val(),
         },
+
         success: function(msg){
 
             // Redirect to main page.

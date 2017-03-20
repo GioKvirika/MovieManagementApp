@@ -15,11 +15,14 @@ function saveHandler()
     $.ajax({
         type: 'POST',
         url: '/addnewmovie',
+
+        // Send object created using data from input fields
         data: {
-            name: document.getElementById("name").value,
-            director: document.getElementById("director").value,
-            year: document.getElementById("year").value
+            name: $('#name').val(),
+            director: $('#director').val(),
+            year: $('#year').val()
         },
+
         success: function(msg){
 
             // Redirect to main page.

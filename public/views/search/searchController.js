@@ -12,10 +12,10 @@ var searchMovie = {};
 
 function searchHandler()
 {
-    // Set values for the search movie object.
-    searchMovie.name = document.getElementById("name").value;
-    searchMovie.director = document.getElementById("director").value;
-    searchMovie.year = document.getElementById("year").value;
+    // Set values for the search movie object, read them from UI fields.
+    searchMovie.name = $('#name').val();
+    searchMovie.director = $('#director').val();
+    searchMovie.year = $('#year').val();
 
     // Send request to the server
     $.ajax({
@@ -68,6 +68,7 @@ function editClick(param) {
 
     // Get details of movie with this ID.
     $.get("/listofmovies/" + id, function(data, status) {
+
         var movie = JSON.parse(data);
 
         // Generate query string for movie we want to edit.

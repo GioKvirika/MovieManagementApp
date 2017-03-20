@@ -5,7 +5,6 @@
 
 function initListView() {
 
-    // This will contain HTML for the table body.
     var tableRows = "";
 
     // First remove all rows, if there are any, from the table body.
