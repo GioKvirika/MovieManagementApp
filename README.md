@@ -6,9 +6,6 @@ This application was mainly created for learning purposes, and is also shared wi
 goal in mind. I hope people who have recently started in Web development, and also in Node.js
 in particular, will find analyzing source code of this project useful.
 
-DISCLAIMER: When creating this project I was myself learning Node.js - and was a bit new to web development in general,
-but despite this I hope you will still find this project useful. PS. The project at least works as far as I have tested.
-
 **Technology used**
 
 On the front end we use: HTML, CSS, Bootstrap, Javascript and jQuery.
