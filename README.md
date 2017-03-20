@@ -10,7 +10,7 @@ The code is documented to a certain extent.
 
 It is assumed that the reader has at least some basic familiarity with the technologies used in this project in order to fully benefit from reading it.
 
-I decided not to use front end frameworks, because since this is also for learning means mainly, readers will be able to see how to implement such project without dependencies on other frameworks.
+I decided not to use front end frameworks (e.g., Angular), because since this is also for learning means mainly, readers will be able to see how to implement such project without dependencies on other frameworks.
 
 # Some Screenshots
 
