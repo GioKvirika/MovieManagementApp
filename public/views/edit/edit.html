@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit movie</title>
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--include relevant controller script-->
+    <script src="editController.js"></script>
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script>
+        // Register function to be called when DOM is loaded.
+        $(initEditView);
+    </script>
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <h1>Edit Movie</h1>
+    <input type="text" id="_id" hidden readonly>
+    Movie name:<br>
+    <input type="text" id="name">
+    <br> <br>
+    Director name:<br>
+    <input type="text" id="director">
+    <br> <br>
+    Year:<br>
+    <input type="text" id="year">
+    <br> <br>
+    <button id="savebutton" class="btn btn-success">Save</button>
+    <br><br>
+
+</div>
+</body>
+</html>

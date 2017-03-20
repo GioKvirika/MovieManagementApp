@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--include relevant controller script-->
+    <script src="searchController.js"></script>
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script>
+        // Function passed as handler is called when DOM is loaded.
+        $(initSearch);
+    </script>
+</head>
+<body>
+<div class="container-fluid">
+
+<h1>Search Movies</h1>
+
+Movie name:<br>
+<input type="text" id="name">
+<br> <br>
+Director name:<br>
+<input type="text" id="director" >
+<br> <br>
+Year:<br>
+<input type="text" id="year">
+<br> <br>
+<button id="savebutton" class="btn btn-success">Search Movies</button>
+<br><br>
+<h1>Results</h1>
+<table id="movies" class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Director</th>
+        <th>Year</th>
+        <th>Operations</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+</div>
+</body>
+</html>
