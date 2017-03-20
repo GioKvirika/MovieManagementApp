@@ -6,7 +6,7 @@ I wrote this application mainly for learning purposes for myself. Now I am shari
 with same goal in mind - however for others. I hope this project will be interesting for those
 who are interested how to create such type of application using the same technology stack.
 
-The code is documented to a certain extent, which I hope will further aid those who are interested to see how the project was implemented.
+The code is documented to a certain extent, to help those trying to understand how the project is implemented.
 
 It is assumed that the reader has at least some basic familiarity with the technologies used in this project in order to fully benefit from reading it.
 
