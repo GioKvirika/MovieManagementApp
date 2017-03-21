@@ -201,4 +201,9 @@ app.get("/deletemovie/:id", function(request, response){
 
 
 // Listen for requests.
-app.listen(3000, "127.0.0.1");
+app.listen(3000, function(){
+
+    console.log('Listening on port 3000!')
+
+});
+
