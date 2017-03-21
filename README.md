@@ -39,6 +39,6 @@ This is how the list of movies page looks like:
 
   ` node index.js` 
 
-4. Now you should be able to access the application at: localhost:3000, from your browser.
+Now you should be able to access the application at: localhost:3000, from your browser.
 
 NOTE: You need to have Mongo DB service running. The data will be created in a database named "Movies", under collection "movies" - the app will create these automatically.
