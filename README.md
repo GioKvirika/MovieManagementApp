@@ -33,11 +33,11 @@ This is how the list of movies page looks like:
 1. Clone the project.
 2. Inside the project run
 
-  ` npm install` 
+    ` npm install` 
 
 3. Finally run
 
-  ` node index.js` 
+   ` node index.js` 
 
 Now you should be able to access the application at: localhost:3000, from your browser.
 
